@@ -1,0 +1,23 @@
+# Requirements for ROS2 Maze Robot Q-Learning
+
+# Core Dependencies
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# ROS2 Python packages (installed via rosdep)
+# rclpy
+# geometry-msgs
+# nav-msgs  
+# sensor-msgs
+# std-msgs
+
+# Optional Dependencies
+scipy>=1.7.0
+pandas>=1.3.0
+seaborn>=0.11.0
+pillow>=8.3.0
+
+# Development Dependencies
+pytest>=6.2.0
+flake8>=3.9.0
+black>=21.6b0
