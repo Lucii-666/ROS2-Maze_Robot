@@ -1,0 +1,35 @@
+# Configuration file for Q-Learning Maze Robot
+
+# Q-Learning Hyperparameters
+learning_rate: 0.1
+discount_factor: 0.99
+epsilon_start: 1.0
+epsilon_end: 0.01
+epsilon_decay: 0.995
+
+# Training Parameters
+num_episodes: 1000
+max_steps_per_episode: 200
+save_frequency: 100
+
+# Environment Settings
+grid_size: 10
+cell_size: 1.0
+goal_position: [9, 9]
+start_position: [0, 0]
+
+# Reward Values
+goal_reward: 100.0
+step_penalty: -1.0
+collision_penalty: -50.0
+distance_reward_scale: 10.0
+
+# Robot Control
+linear_speed: 0.5
+angular_speed: 0.5
+action_duration: 0.1
+
+# Logging
+log_frequency: 10
+save_model_path: './models/'
+log_file: './logs/training.log'
